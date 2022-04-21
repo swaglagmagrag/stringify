@@ -1,0 +1,17 @@
+local words = "word word word word word"
+local p = ""
+local t = {}
+for i = 1, #words do
+  local r = i
+  local c = words:sub(r,r)
+  if c == " " then
+    p = '"' .. p .. '", '
+    table.insert(t, p)
+    p = ""
+  else
+    p = p .. c
+  end
+end
+for k, v in ipairs(t) do 
+  io.write(v)
+end
