@@ -1,8 +1,8 @@
 # Stringify
 I really needed to take a large amount of prewritten words, and I had no fucking intention on putting "", around each one, so I wrote this instead.
-(You have to have spaces inbetween them though, just a heads up)
-EX: If you have a string such as
+(You have to have spaces inbetween for the word seperator, just a heads up)
 
+EX: If you have a string such as:
 
 a = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-=[]\':;?/>.<,|}{+_)(*&^%$#@!"
 
