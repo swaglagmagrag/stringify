@@ -13,7 +13,7 @@ for i = 1, #words do
   end
 end
 for k, v in ipairs(t) do 
-  io.write(v)
+  print(v)
 end
 
 --Character seperator (This will seperate any character in the chars area into seperate strings for the table!)
@@ -30,5 +30,5 @@ for i = 1, #chars do
   end
 end
 for k, v in ipairs(t) do 
-  io.write(v)
+  print(v)
 end
